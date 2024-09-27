@@ -1,0 +1,20 @@
+.card {
+    position: relative;
+    width: 150px;
+    height:60px;
+    
+    /* background-color: #ffffff; */
+    overflow: hidden;
+  }
+
+  .card:before {
+    content: "";
+    position: absolute;
+    margin: -20px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    
+    box-shadow: 0 0 0 250px #ffffff;
+  }

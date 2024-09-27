@@ -1,0 +1,10 @@
+.scroll{
+/*     
+    background: rgb(20,50,100,0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,30 @@
+.rotate {
+    animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.anti {
+    animation: rotation 20s infinite reverse;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@media only screen and (min-width: 992px)  {
+    .clock{
+        display: hidden;
+    }
+}

@@ -1,0 +1,29 @@
+.newcard {
+  position: relative;
+  width:390px;
+  height:450px;
+  
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.newcard:before {
+  content: "";
+  position: absolute;
+  margin: -250px;
+  right: 0;
+  width: 120px;
+  height: 120px;
+  transform: rotate(45deg);
+  /* background: red; */
+  
+  box-shadow: 0 0 0 250px #e3f0ff;
+}
+
+@media only screen and (max-width: 320px) {
+  .newcard {
+    width:80%;
+  height:80vh;
+  
+  }
+}

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.bg-blue-100 {
+    background-color: #e3f0ff;
+}
+
+.text-blue-700 {
+    color: #0b5ed7;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.technologies-tabs {
+    text-align: center;
+    background-color: #e6f0fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 span {
+    color: #007BFF; /* Change to your preferred highlight color */
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tabs button.active {
+    color: #ffffff;
+    background-color: #007BFF; /* Highlight color */
+    border-radius: 5px;
+}
+
+.tab-content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 items per row */
+    gap: 20px;
+    justify-content: center;
+}
+
+.tech-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+
